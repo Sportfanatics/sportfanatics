@@ -125,8 +125,6 @@ main.destaques .destaque .box .gol {
 
     font-family: 'Roboto Slab', serif;
 
-    /* border-radius: 10px; */
-
     width: 50px;
     height: 50px;
 
@@ -206,6 +204,8 @@ main.destaques .destaque p.lerMais:hover {
 
     main.destaques .destaque h1 {
 
+        font-size: 1.5rem;
+        
         width: 90vw;
         
         padding: 1rem;
