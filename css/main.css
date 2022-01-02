@@ -1,0 +1,111 @@
+main {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: url('../imagens/backgorund_main.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    min-height: 100vh;
+
+    margin-top: 100px;
+    padding: 2rem;
+
+}
+
+main .esquerda,
+main .direita .mensagemEspecial {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-direction: column;
+
+    background: rgba(0, 0, 0, 0.5);
+
+    border-radius: 10px;
+
+    width: 40vw;
+
+    padding: 2rem;
+
+}
+
+main img {
+
+    width: 250px;
+
+}
+
+main .esquerda p.nome {
+
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    
+    text-align: center;
+
+    margin-top: 2.5rem;
+
+    color: white;
+
+}
+
+main .esquerda p.slogan {
+
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+
+    text-align: center;
+
+    margin-top: 2.5rem;
+
+    color: white;
+
+}
+
+main .direita p {
+
+    font-family: 'Moon Dance';
+    font-size: 3.5rem;
+
+    text-align: center;
+
+    color: white;
+
+}
+
+@media (max-width: 720px) {
+
+    main {        
+        
+        flex-direction: column;
+
+    }
+
+    main .esquerda {
+
+        margin-bottom: 2rem;
+
+    }
+
+    main .esquerda,
+    main .direita .mensagemEspecial {
+
+        width: 90vw;
+
+    }
+    
+}
+
+@media(max-width: 540px) {
+
+    main {
+
+        margin-top: 135px;
+
+    }
+
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Sportfanátics</title>
+
+        <!-- LINK FONT AWESOME -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+        <!-- LINK FAVICON -->
+        <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+
+        <!-- LINK CSS -->
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/boasVindas.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/footer.css">
+
+        <!-- LINK JavaScript -->
+        <script src="js/menu.js"></script>
+        <script src="js/changeDayToNight.js"></script>
+        <script src="js/boasVindas.js"></script>
+
+    </head>
+
+    <body onload="carregar(), boasVindas()">
+
+        <div class="boasVindas">
+
+            <div class="mensagem">
+
+                <div class="box">
+                
+                    <p id="mensagemBoasVindas"></p>
+                
+                    <p>Seja Bem Vindo</p>
+                
+                    <button>Fechar</button>
+                
+                </div>
+
+            </div>
+
+        </div>
+
+        <header id="header">
+
+            <div class="logo">
+
+                <img id="image" src="imagens/logo.png" alt="logo sportfanátics">
+
+            </div>
+
+            <nav id="nav">
+
+                <ul>
+
+                <!-- O Sportfnátics é um portal virtual de difusão de informações esportivas. Surgiu em 2017 como grupo em uma rede social visando cobrir as mais diversas modalidades do segmento esportivo com informações instantâneas -->
+                <a href="#header"><li>Home</li></a>
+
+                <a href="#sobre"><li>Sobre</li></a>
+
+                <a href="#contato"><li>Contato</li></a>
+                
+                </ul>
+
+            </nav>
+
+            <i id="fas" class="fas fa-bars" onclick="openMenu()"></i>
+
+        </header>
+
+        <main>
+
+            <div class="esquerda">
+            
+                <img src="imagens/ball_logo_white.png" alt="">
+            
+                <p class="nome">SPORTFANÁTICS</p>
+                
+                <p class="slogan">O Futebol Nos Une!</p>
+            
+            </div>
+
+            <div class="direita">
+
+                <div class="mensagemEspecial">
+
+                    <img src="imagens/mensagemEspecial.png" alt="mensagem especial">
+
+                    <p>Feliz Ano Novo</p>
+
+                    <p>Seja Bem Vindo 2022</p>
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer>
+
+            <p>Sportfanátics &copy; Todos os diretos resevados</p>
+
+        </footer>
+        
+    </body>
+
+</html>

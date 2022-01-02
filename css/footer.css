@@ -1,0 +1,17 @@
+footer {
+
+    background: #003366;
+    color: white;
+
+    text-align: center;
+
+    padding: 2rem 0;
+
+}
+
+footer p {
+
+    font-family: 'Courgette';
+    font-size: 1rem;
+
+}

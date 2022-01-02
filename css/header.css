@@ -1,0 +1,199 @@
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 100vw;
+
+    padding: 1rem 2rem;
+
+    position: fixed;
+    top: 0;
+    
+}
+
+header.backgroundDay {
+
+    background: #04724D;
+
+}
+
+header.backgroundNight {
+
+    background: #1D3557;
+
+}
+
+header .logo img {
+
+    width: 350px;
+
+}
+
+header nav ul {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 30vw;
+
+}
+
+header nav ul a li {
+
+    color: white;
+
+    font-family: "Inter";
+    font-size: 1rem;
+    font-weight: bolder;
+
+    text-align: center;
+
+    border-bottom: 1px solid white;
+
+    width: calc(30vw / 3);
+
+    padding: 0.5rem 0;
+
+    transition: 0.2s;
+
+}
+
+header nav ul a li:hover {
+
+    background: white;
+
+    transform: scale(1.1);
+
+}
+
+header.backgroundDay nav ul a li:hover {
+
+    color: #04724D;
+
+}
+
+header.backgroundNight nav ul a li:hover {
+
+    color: #1D3557;
+
+}
+
+.fas {
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    font-size: 1.5rem;
+    
+    width: 35px;
+    height: 35px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+}
+
+.fas:hover {
+
+    background: white;
+    color: #04724D;
+
+    border-radius: 5px;
+
+    transform: scale(1.2);
+
+}
+
+@media(max-width: 1240px) {
+    
+    header nav ul {
+
+        width: 60vw;
+
+    }
+
+    header nav ul a li {
+
+        width: calc(60vw / 3);
+
+    }
+
+}
+
+@media(max-width: 1080px) {
+
+    .fas {
+
+        display: flex;
+
+    }
+
+    .fas.openFas {
+
+        z-index: 2;
+
+    }
+    
+    header nav {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background: rgba(0, 0, 0, 0.8);
+        
+        width: 100vw;
+        min-height: 100vh;
+        
+        position: fixed;
+        top: 0;
+        left: -100vw;
+
+        transition: 0.2s;
+
+    }
+
+    header nav.open {
+
+        left: 0;
+
+    }
+
+    header nav ul {
+
+        flex-direction: column;
+
+        width: 100vw;
+        min-height: 50vh;
+
+    }
+
+    header nav ul a li {
+
+        font-size: 1.5rem;
+        
+        border-bottom: none;
+
+        width: 100vw;
+        padding: 1rem 0;
+
+    }
+
+}
+
+@media(max-width: 540px) {
+
+    header {
+
+        flex-direction: column;
+
+    }
+
+}
