@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@300&family=Moon+Dance&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Roboto+Slab:wght@500&display=swap');
 
 * {
 
@@ -12,5 +12,7 @@
     text-decoration: none;
     
     outline: none;
+
+    scroll-behavior: smooth;
 
 }

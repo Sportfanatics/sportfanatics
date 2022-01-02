@@ -22,7 +22,8 @@
         <link rel="stylesheet" href="css/global.css">
         <link rel="stylesheet" href="css/boasVindas.css">
         <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/destaques.css">
+        <link rel="stylesheet" href="css/noticias.css">
         <link rel="stylesheet" href="css/footer.css">
 
         <!-- LINK JavaScript -->
@@ -34,7 +35,7 @@
 
     <body onload="carregar(), boasVindas()">
 
-        <div id="boasVindas" class="boasVindas">
+        <div id="boasVindas" class="boasVindas close">
 
             <div class="mensagem">
 
@@ -67,6 +68,8 @@
                 <!-- O Sportfnátics é um portal virtual de difusão de informações esportivas. Surgiu em 2017 como grupo em uma rede social visando cobrir as mais diversas modalidades do segmento esportivo com informações instantâneas -->
                 <a href="#header"><li>Home</li></a>
 
+                <a href="#noticias"><li>Notícias</li></a>
+
                 <a href="#sobre"><li>Sobre</li></a>
 
                 <a href="#contato"><li>Contato</li></a>
@@ -79,29 +82,137 @@
 
         </header>
 
-        <main>
+        <main class="destaques">
 
-            <div class="esquerda">
+            <div class="destaque">
+
+                <h1>COLCHONERO NO G4</h1>
             
-                <img src="imagens/ball_logo.png" alt="">
+                <div class="box">
+
+                    <div class="timeCasa">
+                    
+                        <p class="nameTeam">Atlético de Madrid</p>
+                        
+                        <p class="gol">2</p>
+                        
+                    </div>
+
+                    <p class="versus">X</p>
+
+                    <div class="timeFora">
+                    
+                        <p class="gol">0</p>
+                        
+                        <p class="nameTeam">Rayo Vallecano</p>
+                        
+                    </div>
+
+                </div>
             
-                <p class="nome">SPORTFANÁTICS</p>
-                
-                <p class="slogan">O Futebol Nos Une!</p>
+                <a href="#noticias">
+                    <p class="lerMais">&DownArrow;</p>
+                </a>
             
             </div>
 
-            <div class="direita">
+            <div class="destaque">
 
-                <div class="mensagemEspecial">
+                <h1>LIDER PERDEU</h1>
+        
+                <div class="box">
 
-                    <img src="imagens/mensagemEspecial.png" alt="mensagem especial">
+                    <div class="timeCasa">
+                    
+                        <p class="nameTeam">Getafe</p>
+                        
+                        <p class="gol">1</p>
+                        
+                    </div>
 
-                    <p>Feliz Ano Novo</p>
+                    <p class="versus">X</p>
 
-                    <p>Seja Bem Vindo 2022</p>
+                    <div class="timeFora">
+                    
+                        <p class="gol">0</p>
+                        
+                        <p class="nameTeam">Real Madrid</p>
+                        
+                    </div>
 
                 </div>
+            
+                <a href="#noticias">
+                    <p class="lerMais">&DownArrow;</p>
+                </a>
+
+            </div>
+
+            <div class="destaque">
+                
+                <h1>CLASSICO ELETRIZANTE</h1>
+            
+                <div class="box">
+
+                    <div class="timeCasa">
+                    
+                        <p class="nameTeam">Chelsea</p>
+                        
+                        <p class="gol">2</p>
+                        
+                    </div>
+
+                    <p class="versus">X</p>
+
+                    <div class="timeFora">
+                    
+                        <p class="gol">2</p>
+                        
+                        <p class="nameTeam">Liverpool</p>
+                        
+                    </div>
+
+                </div>
+            
+                <a href="#noticias">
+                    <p class="lerMais">&DownArrow;</p>
+                </a>
+
+            </div>
+
+        </main>
+
+        <main id="noticias" class="noticias">
+
+            <h1>NOTÍCIAS</h1>
+
+            <div class="noticia">
+
+                <h1>GETAFE 1 - 0 REAL MADRID</h1>
+
+                <img src="imagens_noticias/get_real.png" alt="noticia" width="540px">
+
+                <p>O primeiro jogo de 2022, não foi do jeito que os Merengues esperavam, o líder da La Liga visitou o Getafe e foi derrotado por 1 a 0.</p>
+                <p>O Real Madrid até teve um bom volume de jogo, com finalizações e posse de bola, mas parou na defesa bem postada e na grande partida do goleiro Soría.</p>
+                <p>Aos 8 minutos do 1°tempo, Kroos faz o desarme na bola, Éder Militão falha e  Ünal rouba a bola e toca na saída de Courtois, fazendo o único gol da partida.</p>
+                <p>Os Merengues lideram a La Liga com 46 pontos, 8 a mais que o vice-líder Sevilla, já o Getafe está em 16° com 18 pontos, 3 a mais que o Alavés, que abre a zona do rebaixamento.</p>
+
+            </div>
+
+            <div class="noticia">
+
+                <h1>CHELSEA 2 - 2 LIVERPOOL</h1>
+
+                <img src="imagens_noticias/che_liv.png" alt="noticia" width="540px">
+
+                <p>Em um jogo pra lá de eletrizante, Chelsea e Liverpool, empataram em 2-2 no Stamford Bridge.
+                    A partida começou com domínio dos visitantes e logo cedo, Mané abriu o placar para o Liverpool.</p>
+
+                    <p>Com maior controle sobre a partida após terem aberto o placar, os Reds ampliaram com Salah.</p>
+                    <p>Após o 2-0, o Liverpool relaxou, "sentou em cima do placar" e viu o Chelsea igualar o placar ainda na primeira etapa; Kovacic acertou um chute espetacular de fora da área após a bola sobrar em uma falta e diminuiu a vantagem aos 41 minutos.</p>
+                    <p>Posteriormente, Pulisic recebeu a bola na entrada da área e  finalizou sem dar chances para Kelleher, empatando aos 45 minutos de jogo.</p> 
+                    <p>Agora, o Chelsea  sobe para a segunda colocação com 43 pontos, um a mais do que o próprio Liverpool, terceiro colocado com um jogo a menos.</p>
+                    <p>O Manchester City segue no topo da tabela com 53 pontos.</p>
 
             </div>
 

@@ -1,0 +1,213 @@
+main.destaques {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-direction: column;
+
+    background: url('../imagens/backgorund_main.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    min-height: 100vh;
+
+    padding: 2rem;
+
+}
+
+main.destaques .destaque {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-direction: column;
+
+    background: rgba(0, 0, 0, 0.8);
+
+    border-radius: 10px;
+
+    margin-bottom: 1rem;
+    padding: 2rem;
+
+}
+
+main.destaques .box {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+main.destaques .destaque h1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: #222222;
+    color: #E69D00;
+    
+    font-family: "Roboto Slab";
+    
+    border-radius: 10px;
+
+    box-shadow: inset 0 -5px 0px #383838;
+
+    margin-bottom: 2rem;
+    padding: 1rem 5rem;
+
+}
+
+main.destaques .box .versus {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: white;
+
+    font-family: 'Inter';
+    font-size: 2rem;
+
+}
+
+main.destaques .box .timeCasa,
+main.destaques .box .timeFora {
+
+    color: white;
+    
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    
+    border: 2px solid #1D3557;
+    
+    border-radius: 10px;
+    
+    width: 25vw;
+
+    padding: 0 2rem;
+
+}
+
+main.destaques .box .timeCasa {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 0 0 2rem;
+
+}
+
+main.destaques .box .timeFora {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 2rem 0 0;
+
+}
+
+main.destaques .destaque .box .gol {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: #1D3557;
+    color: white;
+
+    font-family: 'Roboto Slab', serif;
+
+    border-radius: 10px;
+
+    width: 50px;
+    height: 50px;
+
+}
+
+main.destaques .destaque p.lerMais {
+
+    background: #1D3557;
+    color: white;
+
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    
+    text-align: center;
+
+    border-radius: 10px;
+
+    width: 50px;
+    height: 50px;
+    
+    margin-top: 1rem;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+
+}
+
+main.destaques .destaque p.lerMais:hover {
+
+    background: white;
+    color: #1D3557;
+
+}
+
+@media (max-width: 720px) {
+
+    main.destaques {        
+        
+        flex-direction: column;
+
+    }
+
+    main.destaques .destaque {
+        
+        width: 90vw;
+    
+    }
+
+    main.destaques .destaque .box {
+
+        flex-direction: column;
+
+    }
+
+    main.destaques .destaque .box .timeCasa,
+    main.destaques .destaque .box .timeFora {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        width: 70vw;
+
+    }
+
+    main.destaques .box .versus {
+
+        background: black;
+
+        width: 80vw;
+        height: 2px;
+
+        margin: 2rem 0;
+
+    }
+
+    main.destaques .destaque h1 {
+
+        width: 90vw;
+        
+        padding: 1rem;
+
+    }
+    
+}

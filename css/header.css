@@ -3,13 +3,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    width: 100vw;
 
     padding: 1rem 2rem;
-
-    position: fixed;
-    top: 0;
     
 }
 
@@ -37,7 +32,7 @@ header nav ul {
     align-items: center;
     justify-content: space-between;
 
-    width: 30vw;
+    width: 40vw;
 
 }
 
@@ -51,9 +46,7 @@ header nav ul a li {
 
     text-align: center;
 
-    border-bottom: 1px solid white;
-
-    width: calc(30vw / 3);
+    width: calc(40vw / 4);
 
     padding: 0.5rem 0;
 
@@ -111,22 +104,6 @@ header.backgroundNight nav ul a li:hover {
 
 }
 
-@media(max-width: 1240px) {
-    
-    header nav ul {
-
-        width: 60vw;
-
-    }
-
-    header nav ul a li {
-
-        width: calc(60vw / 3);
-
-    }
-
-}
-
 @media(max-width: 1080px) {
 
     .fas {
@@ -147,7 +124,7 @@ header.backgroundNight nav ul a li:hover {
         align-items: center;
         justify-content: center;
 
-        background: rgba(0, 0, 0, 0.8);
+        background: #04724DE6;
         
         width: 100vw;
         min-height: 100vh;
