@@ -11,10 +11,17 @@
 
     position: fixed;
     top: 0;
+    left: 0;
 
     transition: 0.2s;
 
     z-index: 2;
+
+}
+
+.boasVindas.close {
+
+    left: -100vw;
 
 }
 
@@ -31,7 +38,7 @@
     border-radius: 10px;
 
     width: 60vw;
-    height: 80vh;
+    height: 100vh;
 
     padding: 5rem;
 

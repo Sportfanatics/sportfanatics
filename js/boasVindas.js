@@ -24,3 +24,11 @@ function boasVindas() {
     }
 
 }
+
+function closeBoasVinaas() {
+    
+    let divBoasVindas = document.getElementById('boasVindas')
+
+    divBoasVindas.classList.add("close")
+
+}
