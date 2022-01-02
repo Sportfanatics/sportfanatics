@@ -10,7 +10,7 @@ main {
     
     min-height: 100vh;
 
-    margin-top: 100px;
+    margin-top: 99.63px;
     padding: 2rem;
 
 }
@@ -98,14 +98,4 @@ main .direita p {
 
     }
     
-}
-
-@media(max-width: 540px) {
-
-    main {
-
-        margin-top: 135px;
-
-    }
-
 }

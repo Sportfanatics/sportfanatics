@@ -190,9 +190,11 @@ header.backgroundNight nav ul a li:hover {
 
 @media(max-width: 540px) {
 
-    header {
+    header .logo img {
 
-        flex-direction: column;
+        content: url('../imagens/ball_logo_white.png');
+
+        width: 63.63px;
 
     }
 
