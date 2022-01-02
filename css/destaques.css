@@ -67,10 +67,12 @@ main.destaques .box .versus {
     align-items: center;
     justify-content: center;
     
-    color: white;
+    color: #E69D00;
 
     font-family: 'Inter';
     font-size: 2rem;
+
+    margin: 0 1rem;
 
 }
 
@@ -123,7 +125,7 @@ main.destaques .destaque .box .gol {
 
     font-family: 'Roboto Slab', serif;
 
-    border-radius: 10px;
+    /* border-radius: 10px; */
 
     width: 50px;
     height: 50px;
@@ -193,7 +195,7 @@ main.destaques .destaque p.lerMais:hover {
 
     main.destaques .box .versus {
 
-        background: black;
+        background: white;
 
         width: 80vw;
         height: 2px;
