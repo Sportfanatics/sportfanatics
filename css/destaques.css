@@ -28,6 +28,8 @@ main.destaques .destaque {
 
     border-radius: 10px;
 
+    width: 70vw;
+
     margin-bottom: 1rem;
     padding: 2rem;
 
@@ -88,7 +90,7 @@ main.destaques .box .timeFora {
     
     border-radius: 10px;
     
-    width: 25vw;
+    width: 30vw;
 
     padding: 0 2rem;
 
@@ -160,18 +162,31 @@ main.destaques .destaque p.lerMais:hover {
 
 }
 
+@media (max-width: 1080px) {
+
+    main.destaques .destaque {
+        
+        width: 90vw;
+    
+    }
+
+    main.destaques .destaque .box .timeCasa,
+    main.destaques .destaque .box .timeFora {
+
+        font-size: 1.3rem;
+        
+        width: 40vw;
+
+    }
+    
+}
+
 @media (max-width: 720px) {
 
     main.destaques {        
         
         flex-direction: column;
 
-    }
-
-    main.destaques .destaque {
-        
-        width: 90vw;
-    
     }
 
     main.destaques .destaque .box {
