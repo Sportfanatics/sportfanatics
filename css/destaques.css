@@ -202,8 +202,20 @@ main.destaques .destaque p.lerMais:hover {
         align-items: center;
         justify-content: space-between;
         
-        width: 70vw;
+        width: 80vw;
 
+    }
+
+    main.destaques .box .timeCasa {
+    
+        padding: 0 0 0 1rem;
+    
+    }
+    
+        main.destaques .box .timeFora {
+    
+            padding: 0 1rem 0 0;
+    
     }
 
     main.destaques .box .versus {

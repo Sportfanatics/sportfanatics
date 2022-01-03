@@ -74,7 +74,7 @@
 
 }
 
-@media (max-width: 720px) {
+@media (max-width: 780px) {
 
     .noticias .noticia {
 
@@ -90,7 +90,7 @@
 
     .noticias .noticia p {
     
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         
         width: 80vw;
 

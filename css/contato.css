@@ -134,3 +134,62 @@
     color: white;
 
 }
+
+@media (max-width: 1080px) {
+
+    .contato h1,
+    .contato p {
+
+        font-size: 1.3rem;
+        
+        width: 70vw;
+
+        margin: 1rem 0;
+
+    }
+
+    .contato .socialMedia,
+    .contato .socialMediaCreator {
+
+        width: 35vw;
+
+        margin-bottom: 1rem;
+
+    }
+    
+}
+
+@media (max-width: 720px) {
+
+    .contato h1 {
+
+        width: 90vw;
+
+    }
+    
+    
+    .contato p {
+
+        font: 1rem;
+        
+        width: 90vw;
+
+    }
+
+    .contato .socialMedia,
+    .contato .socialMediaCreator {
+
+        width: 45vw;
+
+    }
+
+    .contato .fab {
+
+        font: 1.2rem;
+        
+        width: 40px;
+        height: 40px;
+
+    }
+    
+}
