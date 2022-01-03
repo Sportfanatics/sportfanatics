@@ -24,6 +24,7 @@
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/destaques.css">
         <link rel="stylesheet" href="css/noticias.css">
+        <link rel="stylesheet" href="css/sobre.css">
         <link rel="stylesheet" href="css/footer.css">
 
         <!-- LINK JavaScript -->
@@ -65,14 +66,13 @@
 
                 <ul>
 
-                <!-- O Sportfnátics é um portal virtual de difusão de informações esportivas. Surgiu em 2017 como grupo em uma rede social visando cobrir as mais diversas modalidades do segmento esportivo com informações instantâneas -->
-                <a href="#header"><li>Home</li></a>
+                <a href="#home"><li onclick="openMenu()">Home</li></a>
 
-                <a href="#noticias"><li>Notícias</li></a>
+                <a href="#noticias"><li onclick="openMenu()">Notícias</li></a>
 
-                <a href="#sobre"><li>Sobre</li></a>
+                <a href="#sobre"><li onclick="openMenu()">Sobre</li></a>
 
-                <a href="#contato"><li>Contato</li></a>
+                <a href="#contato"><li onclick="openMenu()">Contato</li></a>
                 
                 </ul>
 
@@ -82,7 +82,7 @@
 
         </header>
 
-        <main class="destaques">
+        <main id="home" class="destaques">
 
             <div class="destaque">
 
@@ -273,6 +273,24 @@
                 <p>Com essa vitória o Barça vai a 32 pontos, 1 a menos do que o Atlético de Madrid que é o 4° colocado, já o Mallorca fica em 15° com 20 pontos.</p>
 
             </div>
+
+        </main>
+
+        <main class="sobre" id="sobre">
+
+            <h1>SOBRE</h1>
+
+            <img src="imagens/logo.png" alt="logo">
+
+            <span></span>
+            
+            <p>O Sportfnátics é um portal virtual de difusão de informações esportivas. Surgiu em 2017 como grupo em uma rede social visando cobrir as mais diversas modalidades do segmento esportivo com informações instantâneas</p>
+
+        </main>
+
+        <main class="contato" id="contato">
+
+            <!-- - -->
 
         </main>
 
